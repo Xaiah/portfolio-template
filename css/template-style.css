@@ -1,0 +1,39 @@
+html,body{
+	margin:0;
+}
+
+/* Main Container */
+.body-container{
+	display:block;
+	width:100%;
+	position:relative;
+	top:0;
+	left:0;
+	bottom:0;
+}
+
+
+/* Main View Sections */
+.body-page{
+	display:block;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	z-index:1;
+	color:#333;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-webkit-transform-origin: left center;
+	-moz-transform-origin: left center;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.body_page:nth-child(2){
+	left:100%;
+}
