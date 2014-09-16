@@ -1,0 +1,11 @@
+/* ABOUT PAGE */
+#about .i-am-title {
+  display: block;
+  font-weight: 600;
+  font-size: 180%;
+  position: absolute;
+  left: 50%;
+  top: 48%;
+  transform: translate(-50%, -48%); }
+
+/*# sourceMappingURL=about.css.map */

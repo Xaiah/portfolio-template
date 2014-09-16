@@ -1,0 +1,17 @@
+/* ABOUT PAGE */
+$about-pad-side:	5%;
+
+#about{
+	
+	//I AM Title Line - will be centered on page
+	.i-am-title{
+		display:block;
+		font-weight:600;
+		font-size:180%;
+		position: absolute;
+		left: 50%;
+		top: 48%;
+		transform: translate(-50%, -48%);
+	}
+
+}
