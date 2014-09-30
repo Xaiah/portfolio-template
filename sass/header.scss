@@ -1,1 +1,65 @@
 /* HEADER CSS */
+
+$logo-color: 		#ea103e; 
+$logo-color-hover: 	#333; //logo color on hover
+$link-active-color:	#ea103e; //clicked link color
+$head-top-padding: 35px;
+$head-bot-padding: 15px;
+
+.body-main-header{
+	position:fixed;
+	display:block;
+	padding-top: $head-top-padding;
+	padding-bottom: $head-bot-padding;
+	width:100%;
+	z-index:5;
+	//overflow:hidden;
+}
+.body-main.header.scroll{
+	background: #fff;
+}
+//container /////////
+.header-container{
+	display:block;
+	padding: 0 3%;
+}
+
+//logo //////////////
+.nav-logo{
+	display:inline-block;
+	font-size: 130%;
+	color: $logo-color;
+	transition: color .2s ease-in-out; 
+	-moz-transition: color .2s ease-in-out;
+	-webkit-transition: color .2s ease-in-out;
+}
+.nav-logo:hover, nav-logo:active{ color: $logo-color-hover; }
+
+#special { border:1px solid; border-radius:60px; padding:13px; margin-top:-16px} //special
+
+//nav links /////////
+.nav-links{
+	display:inline-block;
+	float:right;
+	margin:0;
+
+	li{
+		display:inline-block;
+		margin-right:20px;
+	}
+	li > a{
+		text-decoration:none;
+		color:#333;
+		transition: border-bottom .15s ease-in-out; 
+		-moz-transition: border-bottom .15s ease-in-out;
+		-webkit-transition: border-bottom .15s ease-in-out;
+	}
+	li > a:hover{
+		border-bottom:3px solid;
+		opacity:0.8;
+	}
+
+	li > a:active, li .active{
+		color: $link-active-color;
+	}
+}
